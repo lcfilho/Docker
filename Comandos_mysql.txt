@@ -1,0 +1,9 @@
+create table TCP(
+     `id_TCP` INTEGER AUTO_INCREMENT ,
+     `cpf` VARCHAR(255),
+     `nome` VARCHAR(255),
+     `idade` INTEGER,
+     `datanasc` DATE,
+    PRIMARY KEY (id_TCP));
+
+
