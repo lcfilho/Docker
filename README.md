@@ -1,0 +1,1 @@
+# docker Utilizado com mysql python e Centos

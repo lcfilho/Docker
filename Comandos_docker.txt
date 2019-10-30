@@ -1,0 +1,13 @@
+
+
+#RUN wget https://dev.mysql.com/get/Downloads/MySQL-5.6/MySQL-5.6.45-1.el7.x86_64.rpm-bundle.tar
+#RUN tar -xvf MySQL-5.6.45-1.el7.x86_64.rpm-bundle.tar
+#RUN tar -xvf MySQL-5.6.45-1.el7.x86_64.rpm-bundle.tar
+#RUN yum install MySQL-server-5.6.45-1.el7.x86_64.rpm -y
+#RUN /etc/init.d/mysql start
+#RUN yum install MySQL-client-5.6.45-1.el7.x86_64.rpm -y
+
+
+/etc/init.d/mysql start
+cat /root/.mysql_secret
+mysql -u root -p 
